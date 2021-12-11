@@ -1,3 +1,3 @@
-This repo is my version of the Project that can be accessed here: https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes 
+I tried some basic HMTL here and made The Elder Scrolls recipes webpage 
 
-I tried some basic HMTL here
+_All the photos are belong to innatthecrossroads.com_ 
