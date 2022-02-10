@@ -1,19 +1,70 @@
+body {
+    background-image: url(src/skyrim-bg.jpg);
+    background-attachment: fixed;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 1);
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+}
+
+.main {
+    width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    background: rgba(8, 8, 8, 0.685);
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
 h1,
 h2 {
     text-align: center;
-	font-family: 'Nanum Gothic Coding', serif;       
+    font-family: 'Nanum Gothic Coding', serif;
+    padding-top: 10px;
+    color: rgb(230, 230, 230, 1);
+}
+
+p,
+.main li {
+    color: rgb(230, 230, 230, 1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: #5a91cf;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+p {
+    padding: 0px 20px;
 }
 
 img {
-	display: block;
-	width: auto;
-	height: 50%;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 50%;
 }
 
-body {
-	width: 95%;
-	margin-right: auto;
-	margin-left: auto;
+#map {
+    width: 60%;
 }
